@@ -3,6 +3,6 @@
 
 ## 截图展示
 <p>
-  <img alt="资讯" src=".Screenshots/zixun.jpg" width="50%" />
-  <img alt="妹纸图" src=".Screenshots/meizi.jpg" width="50%" />
+  <img alt="资讯" src=".Screenshots/zixun.PNG" width="50%" />
+  <img alt="妹纸图" src=".Screenshots/meizi.PNG" width="50%" />
 </p>
