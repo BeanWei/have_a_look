@@ -38,6 +38,12 @@ export default {
       'news'
     ])
   },
+  mounted () {
+    this.refresh()
+  },
+  onPullDownRefresh () {
+    this.refresh()
+  },
   methods: {
     ...mapActions([
       'getSlides',
@@ -49,9 +55,6 @@ export default {
         this.getSlides()
       ])
     }
-  },
-  created () {
-    this.refresh()
   }
 }
 </script>
