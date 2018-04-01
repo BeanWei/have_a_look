@@ -2,6 +2,8 @@
 
 > A Mpvue project
 
+#基于mpvue的微信小程序 ，文章干货福利全都有。
+
 ## Build Setup
 
 ``` bash
