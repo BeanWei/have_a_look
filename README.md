@@ -1,6 +1,8 @@
 
 #基于mpvue的微信小程序 ，文章干货福利全都有。
 
-![Alt Text](https://github.com/BeanWei/have_a_look/blob/master/Screenshots/%E8%B5%84%E8%AE%AF.PN,https://github.com/BeanWei/have_a_look/blob/master/Screenshots/%E5%A6%B9%E7%BA%B8.PNG)
-
-![Alt Text](https://github.com/BeanWei/have_a_look/blob/master/Screenshots/%E5%A6%B9%E7%BA%B8.PNG)
+## 截图展示
+<p>
+  <img alt="资讯" src="./screenshots/资讯.jpg" width="50%" />
+  <img alt="妹纸图" src="./screenshots/妹纸.jpg" width="50%" />
+</p>
