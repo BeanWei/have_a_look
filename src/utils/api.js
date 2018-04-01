@@ -9,8 +9,8 @@ const api = {
     return fly.get('https://www.qdaily.com/tags/tagmore/1068/0.json')
   },
 
-  getMeiziList (page) {
-    return fly.get(`http://gank.io/api/data/%E7%A6%8F%E5%88%A9/10/${page}`)
+  getMeiziList () {
+    return fly.get(`http://gank.io/api/data/%E7%A6%8F%E5%88%A9/10/1`)
   }
 }
 

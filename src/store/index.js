@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import xml2json from 'xmlstring2json'
-import { formatSlideList, formatNewsList } from '../utils'
+import { formatSlideList, formatNewsList, formatMeiziList } from '../utils'
 import api from './../utils/api'
 
 Vue.use(Vuex)
@@ -10,7 +10,7 @@ const store = new Vuex.Store({
   state: {
     slides: [],
     news: [],
-    topics: []
+    meizi: []
   },
 
   mutations: {
@@ -20,8 +20,8 @@ const store = new Vuex.Store({
     news (state, data) {
       state.news = [...data]
     },
-    topics (state, data) {
-      state.topics = [...data]
+    meizi (state, data) {
+      state.meizi = [...data]
     }
   },
 
@@ -48,12 +48,11 @@ const store = new Vuex.Store({
         commit('news', state.news.concat(formatedNews))
       }
     },
-    //获取妹子图
-    async getMeiziList ({ state, commit }, {page}) {
-      const meizi = await api.getMeiziList(page)
+    async getMeiziList ({ state, commit }, init) {
+      const meizi = await api.getMeiziList()
       if (!meizi) return
       const formatedMeizi = meizi.results.map(formatMeiziList)
-      if (page) {
+      if (init) {
         commit('meizi', formatedMeizi)
       } else {
         commit('meizi', state.meizi.concat(formatedMeizi))
