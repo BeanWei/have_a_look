@@ -1,23 +1,6 @@
-# my-weixin
-
-> A Mpvue project
 
 #基于mpvue的微信小程序 ，文章干货福利全都有。
 
-## Build Setup
+![Alt Text](https://github.com/BeanWei/have_a_look/blob/master/Screenshots/%E8%B5%84%E8%AE%AF.PNG)
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+![Alt Text](https://github.com/BeanWei/have_a_look/blob/master/Screenshots/%E5%A6%B9%E7%BA%B8.PNG)
